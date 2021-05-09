@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+.tabla__container {
+    width: 60%;
+    border-radius: 20px;
+    margin: 25px auto;
+    background-color: #F4F2FB;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none; 
+}
+
+.table__title {
+    background-color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.counter__element {
+    padding-bottom: 0px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+/* Cards timetable */
+.timetable__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    padding: 10px 0px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.time {
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.moto__img {
+    width: 80px;
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.75);
+    color: #fff;
+    transition: .5s;
+}
+
+/* Responsive design */
+@media screen and (max-width: 770px){
+    .tabla__container {
+        width: 90%;
+    }
+    .red {
+        transition: 0s;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .tabla__container {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 325px){
+    .timetable__card {
+        width: 95%;
+        border-radius: 20px;
+        padding: 5px;
+    }
+}
