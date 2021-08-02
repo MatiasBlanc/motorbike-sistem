@@ -53,9 +53,9 @@ body {
 }
 
 .red {
-    background-color: rgba(240, 0, 0, 0.75);
+    background-color: rgba(220, 0, 0, 0.75);
     color: #fff;
-    transition: .5s;
+    transition: .8s;
 }
 
 /* Responsive design */
