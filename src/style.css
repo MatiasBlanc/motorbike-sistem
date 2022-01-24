@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: #eee;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .tabla__container {
@@ -16,9 +16,8 @@ body {
 
 .table__title {
     background-color: #fff;
+    font-size: 18px;
     width: 100%;
-    text-transform: uppercase;
-    letter-spacing: 3px;
 }
 
 .counter__element {
@@ -61,7 +60,13 @@ body {
 @media screen and (max-width: 770px){
     .tabla__container {
         width: 90%;
+        margin: 0;
     }
+    .table__title {
+        font-size: 16px;
+        background-color: #fff;
+    }
+    
     .red {
         transition: 0s;
     }
@@ -71,6 +76,9 @@ body {
     .tabla__container {
         width: 100%;
         border-radius: 0px;
+    }
+    .table__title {
+        font-size: 14px;
     }
 }
 
